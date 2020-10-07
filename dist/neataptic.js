@@ -907,7 +907,7 @@ Network.prototype = {
    */
   mutate: function (method) {
     if (typeof method === 'undefined') {
-      throw new Error('No (correct) mutate method given!');
+      console.warn('No (correct) mutate method given!');
     }
 
     var i, j;
